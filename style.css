@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+.container {
+    width: 375px;
+    height: 766px;
+    background-color: #F4F4F4;
+
+    
+}
+
+
+header {
+    background-color: #1B83E2;
+    width: 375px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 271px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    
+}
+
+main {
+    padding: 23px 24px 32px 24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 4px;
+    margin-bottom: 23px;
+
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 302px;
+
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+
+    background: #1B83E2;
+    border-radius: 25px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+
+
+.section-flag{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.section-image{
+    display: block;
+    
+}
+
+.real-dolar {
+    color: #777777;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.money {
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
